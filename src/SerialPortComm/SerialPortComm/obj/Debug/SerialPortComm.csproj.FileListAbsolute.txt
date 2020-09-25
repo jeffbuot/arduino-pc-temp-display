@@ -1,0 +1,10 @@
+D:\Lab\SerialPortComm\SerialPortComm\bin\Debug\SerialPortComm.exe.config
+D:\Lab\SerialPortComm\SerialPortComm\bin\Debug\SerialPortComm.exe
+D:\Lab\SerialPortComm\SerialPortComm\bin\Debug\SerialPortComm.pdb
+D:\Lab\SerialPortComm\SerialPortComm\bin\Debug\System.IO.Ports.dll
+D:\Lab\SerialPortComm\SerialPortComm\bin\Debug\System.IO.Ports.xml
+D:\Lab\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.csprojAssemblyReference.cache
+D:\Lab\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.csproj.CoreCompileInputs.cache
+D:\Lab\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.csproj.CopyComplete
+D:\Lab\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.exe
+D:\Lab\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.pdb
