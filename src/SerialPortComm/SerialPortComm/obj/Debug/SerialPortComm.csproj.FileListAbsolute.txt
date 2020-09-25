@@ -8,3 +8,14 @@ D:\Lab\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.csproj.CoreCompile
 D:\Lab\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.csproj.CopyComplete
 D:\Lab\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.exe
 D:\Lab\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.pdb
+D:\Projects\arduino-pc-temp-display\src\SerialPortComm\SerialPortComm\bin\Debug\SerialPortComm.exe.config
+D:\Projects\arduino-pc-temp-display\src\SerialPortComm\SerialPortComm\bin\Debug\SerialPortComm.exe
+D:\Projects\arduino-pc-temp-display\src\SerialPortComm\SerialPortComm\bin\Debug\OpenHardwareMonitorLib.dll
+D:\Projects\arduino-pc-temp-display\src\SerialPortComm\SerialPortComm\bin\Debug\System.IO.Ports.dll
+D:\Projects\arduino-pc-temp-display\src\SerialPortComm\SerialPortComm\bin\Debug\System.IO.Ports.xml
+D:\Projects\arduino-pc-temp-display\src\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.csprojAssemblyReference.cache
+D:\Projects\arduino-pc-temp-display\src\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.csproj.CoreCompileInputs.cache
+D:\Projects\arduino-pc-temp-display\src\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.csproj.CopyComplete
+D:\Projects\arduino-pc-temp-display\src\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.exe
+D:\Projects\arduino-pc-temp-display\src\SerialPortComm\SerialPortComm\obj\Debug\SerialPortComm.pdb
+D:\Projects\arduino-pc-temp-display\src\SerialPortComm\SerialPortComm\bin\Debug\SerialPortComm.pdb
