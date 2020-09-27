@@ -92,11 +92,13 @@ namespace SerialPortComm
                 }
             }
             computer.Close();
-            return $"CPU {cl:0.##}% {ct:0.##}C\nGPU {gl:0.##}% {gt:0.##}C\nRAM {rl:0.##}%";
+           // return $"CPU {cl:0.##}% {ct:0.##}C\nGPU {gl:0.##}% {gt:0.##}C\nRAM {rl:0.##}%";
+            return $"CPU {ct:0.##}C\nGPU {gt:0.##}C\nRAM {rl:0.##}%";
         }
         static void Main(string[] args)
         {
-            SerialPort com = new SerialPort("COM12", 9600, Parity.None, 8, StopBits.One);
+            Console.Write("Please enter port name (e.g. COM12): ");
+            SerialPort com = new SerialPort(Console.ReadLine(), 9600, Parity.None, 8, StopBits.One);
             com.Open();
 
             ;
