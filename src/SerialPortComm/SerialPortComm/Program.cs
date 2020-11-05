@@ -45,14 +45,14 @@ namespace SerialPortComm
                         {
                             if (computer.Hardware[i].Sensors[j].Name == "CPU Package")
                             {
-                                ct = (float)computer.Hardware[i].Sensors[j].Value;
+                                ct = (float)(computer.Hardware[i].Sensors[j].Value ?? -1);
                             }
                         }
                         if (computer.Hardware[i].Sensors[j].SensorType == SensorType.Load)
                         {
                             if (computer.Hardware[i].Sensors[j].Name == "CPU Total")
                             {
-                                cl = (float)computer.Hardware[i].Sensors[j].Value;
+                                cl = (float)(computer.Hardware[i].Sensors[j].Value ?? -1);
                             }
                         }
                     }
@@ -92,8 +92,9 @@ namespace SerialPortComm
                 }
             }
             computer.Close();
-           // return $"CPU {cl:0.##}% {ct:0.##}C\nGPU {gl:0.##}% {gt:0.##}C\nRAM {rl:0.##}%";
-            return $"CPU {ct:0.##}C\nGPU {gt:0.##}C\nRAM {rl:0.##}%";
+            // return $"CPU {cl:0.##}% {ct:0.##}C\nGPU {gl:0.##}% {gt:0.##}C\nRAM {rl:0.##}%";
+            string cpu = (ct) >= 0 ? $"{ct:0.##}C" : "--";
+            return $"CPU {cpu}\nGPU {gt:0.##}C\nRAM {rl:0.##}%";
         }
         static void Main(string[] args)
         {
